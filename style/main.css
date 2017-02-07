@@ -1,0 +1,52 @@
+/************************************
+ *
+ *
+ *          header image
+ *
+ *
+ ***********************************/
+
+.cover_img img {
+    z-index: -2;
+    position: relative;
+}
+
+.cover_img {
+    background: rgba(119, 119, 119, 0.66);
+    
+}
+
+
+
+/************************************
+ *
+ *
+ *          index info
+ *
+ *
+ ***********************************/
+
+.card {
+    padding: 10px;
+    border: 1px solid black;
+}
+.intro {
+    background: rgb(0, 137, 255);
+}
+.background_info {
+    background: rgb(243, 123, 0);
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+    .main_info {
+        padding: 0;
+    }
+}
