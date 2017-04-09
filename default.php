@@ -12,10 +12,7 @@
     
     <link rel="stylesheet" href="style/main.css">
         
-    <link rel="stylesheet" href="style/media_queries/xs_screen.css">
-    <link rel="stylesheet" href="style/media_queries/sm_screen.css">
-    <link rel="stylesheet" href="style/media_queries/md_screen.css">
-    <link rel="stylesheet" href="style/media_queries/lg_screen.css">
+    
         
     
 </head>
@@ -27,6 +24,7 @@
 
 <?php include('elements/header.html') ?>
 
+<?php include('elements/education.html') ?>
 
 
 
@@ -35,9 +33,11 @@
 
 
 
-
-
-
-
+    <link rel="stylesheet" href="style/media_queries/xs_screen.css">
+    <link rel="stylesheet" href="style/media_queries/sm_screen.css">
+    <link rel="stylesheet" href="style/media_queries/md_screen.css">
+    <link rel="stylesheet" href="style/media_queries/lg_screen.css">
+    
+    <script src='scripts/main.js'></script>
 </body>
 </html>

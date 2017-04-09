@@ -1,7 +1,16 @@
 @media screen and (min-width: 1200px) {
     
     
-    
+    /************************************
+    *
+    *          education
+    *
+    ***********************************/
+   
+   .education .intro-statement {
+           width: 60%;
+           margin: 120px 20%;
+   }
     
     
     
