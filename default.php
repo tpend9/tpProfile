@@ -24,11 +24,11 @@
 
 <?php include('elements/header.html') ?>
 
+<?php include('elements/awards.html') ?>
+
+
+
 <?php include('elements/education.html') ?>
-
-
-
-
 
 
 

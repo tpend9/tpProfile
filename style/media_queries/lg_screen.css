@@ -3,16 +3,27 @@
     
     /************************************
     *
-    *          education
+    *          intro area
     *
     ***********************************/
    
-   .education .intro-statement {
+   .intro-statement {
            width: 60%;
            margin: 120px 20%;
    }
     
-    
-    
+   /************************************
+    *
+    *          awards 
+    *
+    ***********************************/
+   .awards_img {
+       width: 85%;
+       margin: 7% 0 30px 17.5%;
+   }
+   .awards_cards {
+        width: 75%;
+        margin-left: 10%;
+   }
     
 }

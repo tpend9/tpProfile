@@ -1,0 +1,52 @@
+.awards {
+    background: #f5f5f6;
+    overflow: hidden;
+}
+
+/************************************
+ *
+ *          info cards 
+ *
+ ***********************************/
+
+.awards_info {
+    padding: 0 15px 15px 15px;
+}
+
+.awards_cards {
+    margin: 0 0 20px 0;
+    background: #e8e8e8;
+    padding: 10px 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.awards_cards p {
+    width: 80%;
+    text-align: left;
+    margin-left: 5%;
+}
+.awards_cards h3 {
+    text-align: center;
+}
+
+.awards_id_card {
+    margin: 15px 0;
+    margin-left: 30px;
+}
+.awards_id_card h5 {
+    margin-top: -10px;
+    margin-left: 5px;
+}
+
+/************************************
+ *
+ *          image
+ *
+ ***********************************/
+.awards_img {
+    width: 70%;
+    margin: 20px 0 30px 15%;
+}
+
+
