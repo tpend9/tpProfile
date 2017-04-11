@@ -24,7 +24,7 @@
 
 <?php include('elements/header.html') ?>
 
-<?php include('elements/awards.html') ?>
+<?php include('elements/past_projects.html') ?>
 
 
 

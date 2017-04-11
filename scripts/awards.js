@@ -1,6 +1,7 @@
 
 function awards_img_animation () {
-    $('#awards_img').fadeIn(1000);
+    
+    $('#awards_img').fadeIn(3000);
     var width = window.innerWidth;
     if (width < 992) {
         var id = setInterval(frame_mobile, 5);
