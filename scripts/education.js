@@ -13,9 +13,9 @@ function education_card_silder() {
     var count, pos;
     
     if (window.innerWidth < 768) {
-        var id = setInterval(frame_mobile, 3);
+        var id = setInterval(frame_mobile, 2);
     } else {
-        var id = setInterval(frame_desktop, 3);
+        var id = setInterval(frame_desktop, 2);
     }
     
     

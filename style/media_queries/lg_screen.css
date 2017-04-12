@@ -9,7 +9,8 @@
    
    .intro-statement {
            width: 60%;
-           margin: 120px 20%;
+           margin-left: 20%;
+           padding 100px 0;
    }
     
    /************************************
@@ -25,5 +26,6 @@
         width: 75%;
         margin-left: 10%;
    }
-    
+   
+   
 }

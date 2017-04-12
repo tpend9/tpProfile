@@ -24,7 +24,7 @@
 
 <?php include('elements/header.html') ?>
 
-<?php include('elements/past_projects.html') ?>
+<?php include('elements/skills.html') ?>
 
 
 
