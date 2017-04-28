@@ -23,7 +23,7 @@ if (true) {
         for (var i = 0; i < cue_point.length; i++) {
             
             if (!cue_point[i].active) {
-                if (pos >= cue_point[i].cue_point[0] - 15 && pos <= cue_point[i].cue_point[0] + 15) {
+                if (pos >= cue_point[i].cue_point[0] - 15 && pos <= cue_point[i].cue_point[0] + 25) {
                     cue_point[i].animation();
                     cue_point[i].active = true;
                 }
