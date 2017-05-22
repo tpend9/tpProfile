@@ -1,0 +1,50 @@
+.contact .intro-statement {
+    margin-bottom: 5px;
+}
+.contact .intro-statement h3 {
+    padding-bottom: 3px;
+}
+
+
+
+.contact_card {
+    display: block;
+    width: 90%;
+    height: 60px;
+    margin: 10px 5%;
+    position: relative;
+    border: 1px solid #00a651;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.contact_card_container {
+    width: 90%;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.contact_card img {
+    width: 50px;
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    
+}
+
+.contact_card .contact_link, .contact_card p {
+    display: none;
+    
+}
+
+.contact_card h4 {
+    padding: 8px;
+    
+}
+
+
+.contact_card:hover {
+    background: #00a651;
+    color: white;
+}
