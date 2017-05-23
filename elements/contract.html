@@ -1,0 +1,42 @@
+<section class="contract">
+    
+    <link rel="stylesheet" href="style/contact_form.css">
+    
+    <div class="intro-statement">
+        <h3>Want me on that project</h3>
+        
+        <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>        
+    </div>
+    
+    
+    <form class='contact_form' action="scripts/contact_email.php?page=contract" method="post">
+        
+        <h3>Contact Me</h3>
+        
+        <input type='text' class="form-control" name="user_name" id='user_name' onblur="val_input('text', 'user_name');" placeholder='Name'>
+        <br>
+        
+        <input type='email' class="form-control" name="user_email" id='user_email' onblur="val_input('email', 'user_email');" placeholder='Eamil'>
+        <br>
+        
+        <input type='url' class="form-control" name='project_url' id="project_url" onblur="val_input('text', 'project_url');" placeholder="Project's URL">
+        <br>
+        
+        <textarea name="project_task" class="form-control" id="project_task" onblur="val_input('text', 'project_task');" placeholder='Task you need to get done'></textarea>
+        <br>
+
+        <textarea name='project_description' class="form-control" id='project_description' onblur="val_input('text', 'project_description');" placeholder='Bref project description'></textarea>
+        <br>
+            
+        <div class="form-group math_qest">
+            <label for="how_math">How is you math? 8 + 2 = </label>
+            
+            <input type='number' name="how_math" id='how_math' onblur="val_input('math', 'how_math');" class="form-control">
+        </div>
+        
+        <button type='submit' id='contact_form_button' class="btn btn-success">Submit</button>
+    </form>
+    
+    <script src='scripts/contact_form.js'></script>
+    
+</section>
