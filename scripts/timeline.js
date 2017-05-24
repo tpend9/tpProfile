@@ -1,1 +1,83 @@
-function timeline(a,b){this.card_elements=a;this.cue_point=b;this.active=false;this.animation=function(){var d,h;var e=this.card_elements;if(window.outerWidth<768){var g=setInterval(c,2)}else{var g=setInterval(f,2)}function f(){d=0;for(var j=0;j<e.length;j+=2){h=parseInt(e[j].style.left);if(h<=0){d++}else{e[j].style.left=h-3+"px"}h=parseInt(e[j+1].style.right);if(h<=0){d++}else{e[j+1].style.right=h-3+"px"}}if(d==4){clearInterval(g)}}function c(){d=0;for(var j=0;j<e.length;j++){h=parseInt(e[j].style.left);if(h<=0){d++}else{e[j].style.left=h-3+"px"}}}if(d<=4){clearInterval(g)}};this.reset=function(){cards_id=this.card_elements;var d=window.outerWidth/1.5;if(window.outerWidth<768){for(var c=0;c<cards_id.length;c++){cards_id[c].style.left=d+(d*c/4)+"px"}}else{for(var c=0;c<cards_id.length;c+=2){cards_id[c].style.left=d+(d*c/9)+"px";cards_id[c+1].style.right=d+(d*(c+1)/9)+"px"}}}};
+
+function timeline(elements_id, cue_point) {
+    
+    this.card_elements = elements_id;
+    
+    this.cue_point = cue_point;
+    
+    this.active = false;
+    
+    this.animation = function() {
+        
+        
+        var count, pos;
+        var cards_id = this.card_elements;
+        
+        if (window.innerWidth < 768) {
+            var id = setInterval(frame_mobile, 2);
+        } else {
+            var id = setInterval(frame_desktop, 2);
+        }
+        
+        
+        function frame_desktop() {
+            count = 0;
+            
+            
+            for (var i = 0; i < cards_id.length; i += 2) {
+                pos = parseInt(cards_id[i].style.left);
+                
+                if (pos <= 0) {
+                    count++;
+                } else {
+                    cards_id[i].style.left = pos - 3 + 'px';
+                }
+                
+                pos = parseInt(cards_id[i + 1].style.right);
+                if (pos <= 0) {
+                    count++;
+                } else {
+                    cards_id[i + 1].style.right = pos - 3 + 'px';
+                }
+            }
+            
+            if (count == 4) {
+                clearInterval(id);
+            }
+            
+        }
+        
+        function frame_mobile() {
+            count = 0
+            
+            for (var i = 0; i < cards_id.length; i++) {
+                pos = parseInt(cards_id[i].style.left);
+                
+                if (pos <= 0) {
+                    count++;
+                } else {
+                    cards_id[i].style.left = pos - 3 + 'px';
+                }
+            }
+        }
+        if (count <= 4) {
+            clearInterval(id);
+        }
+        
+    };
+    
+    this.reset = function() {
+        cards_id = this.card_elements;
+        var pos = window.innerWidth / 1.5;
+        if (window.innerWidth < 768) {
+            for (var i = 0; i < cards_id.length; i++) {
+                cards_id[i].style.left = pos + (pos * i / 4) + 'px';
+            }
+        } else {
+            for (var i = 0; i < cards_id.length; i += 2) {
+                cards_id[i].style.left = pos + (pos * i / 9) + 'px';
+                cards_id[i + 1].style.right = pos + (pos * (i + 1) / 9) + 'px';
+            }
+        }
+    };
+};

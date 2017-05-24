@@ -1,1 +1,127 @@
-.cover_img img{z-index:-2;position:relative;width:100%}.cover_img{background:rgba(119,119,119,0.66);position:relative;overflow:hidden}.hire_me_button_area{position:absolute;bottom:15px;left:15px;width:100%}.hire_me_button_area button{width:100%}.navbar{margin-bottom:0}.change .bar1{-webkit-transform:rotate(-45deg) translate(-9px,6px);transform:rotate(-45deg) translate(-5px,4px)}.change .bar2{opacity:0}.change .bar3{-webkit-transform:rotate(45deg) translate(-8px,-8px);transform:rotate(45deg) translate(-5px,-4px)}.intro-statement{width:80%;margin:0 10% 70px 10%;text-align:center;padding:15px}.intro-statement h3{padding:5px 0 20px 0}footer li{display:inline-block}footer{text-align:center;background:#272727;padding:20px 0 5px 0}.footer_nav a{padding:10px;color:#777;text-decoration:none}.footer_nav{border-bottom:4px solid #292929;border-top:3px solid #292929;padding:10px 0}.footer_nav a:hover{color:lightgrey}.social_media_links img{width:50px}.social_media_links img:hover{padding:1px}.social_media_links a{padding:5px}.social_media_links{margin-bottom:20px}.social_media_links p{color:#f5f5f6;margin:15px 0 10px 0}
+/************************************
+ *
+ *          header 
+ *
+ ***********************************/
+
+.cover_img img {
+    z-index: -2;
+    position: relative;
+    width: 100%;
+}
+
+.cover_img {
+    background: rgba(119, 119, 119, 0.66);
+    position: relative;
+    overflow: hidden;
+}
+
+.hire_me_button_area {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: 100%;
+}
+.hire_me_button_area button {
+    width: 100%;
+}
+
+
+/************************************
+ *
+ *          nav
+ *
+ ***********************************/
+.navbar {
+    margin-bottom: 0;
+}
+
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-5px, 4px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-5px, -4px) ;
+}
+
+
+
+/************************************
+ *
+ *          intro area
+ *
+ ***********************************/
+
+.intro-statement {
+	width: 80%;
+	margin: 0px 10% 70px 10%;
+	text-align: center;
+        padding: 15px;
+}
+.intro-statement h3 {
+	padding: 5px 0 20px 0;
+        
+}
+
+
+/************************************
+ *
+ *          footer
+ *
+ ***********************************/
+
+footer li {
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    background: #272727;
+    padding: 20px 0 5px 0;
+}
+.footer_nav a {
+    padding: 10px;
+    color: #777;
+    text-decoration: none;
+}
+.footer_nav {
+    border-bottom: 4px solid #292929;
+    border-top: 3px solid #292929;
+    padding: 10px 0;
+}
+.footer_nav a:hover {
+    color: lightgrey;
+}
+
+
+
+
+.social_media_links img {
+    width: 50px;
+}
+.social_media_links img:hover {
+    padding: 1px;
+
+}
+
+
+.social_media_links a {
+    padding: 5px;
+}
+.social_media_links {
+    margin-bottom: 20px;
+}
+.contact_footer {
+    color: #f5f5f6;
+    margin: 15px 0 20px 0;
+}

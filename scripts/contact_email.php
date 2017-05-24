@@ -60,4 +60,4 @@ $to = "tpend9@icloud.com";
 
 mail($to,$subject,$message,$headers);
 
-header("Location: ../single_element.php?page=conf_message.html");
+header("Location: ../single_element.php?page=conf_message.html&title=Thanks+for+the+message");
