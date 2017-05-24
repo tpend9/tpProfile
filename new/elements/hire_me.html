@@ -1,0 +1,39 @@
+<section class="hire_me">
+    
+    <link rel="stylesheet" href="style/contact_form.css">
+    
+    <div class="intro-statement">
+        <h3>Want me on your team</h3>
+        
+        <p>I'm looking forward to the opportunity to work with your team, and I know that I will be a great asset to it.</p>
+    </div>
+    
+    
+    <form class='contact_form' action="scripts/contact_email.php?page=hire_me" method="post">
+        
+        <h3>Contact Me</h3>
+        
+        <input type='text' class="form-control" name="user_name" id='user_name' onblur="val_input('text', 'user_name');" placeholder='Name'>
+        <br>
+        
+        <input type='email' class="form-control" name="user_email" id='user_email' onblur="val_input('email', 'user_email');" placeholder='Eamil'>
+        <br>
+        
+        <input type='text' class="form-control" name='user_position' id="user_position" onblur="val_input('text', 'user_position');" placeholder='Position'>
+        <br>
+        
+        <textarea name='project_description' class="form-control" id='project_description' onblur="val_input('text', 'project_description');" placeholder='Position info'></textarea>
+        <br>
+            
+        <div class="form-group math_qest">
+            <label for="how_math">How is you math? 8 + 2 = </label>
+            
+            <input type='number' name="how_math" id='how_math' onblur="val_input('math', 'how_math');" class="form-control">
+        </div>
+        
+        <button type='submit' id='contact_form_button' class="btn btn-success">Submit</button>
+    </form>
+    
+    <script src='scripts/contact_form.js'></script>
+    
+</section>

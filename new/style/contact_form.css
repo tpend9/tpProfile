@@ -1,0 +1,24 @@
+.contact_form {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+}
+
+.contact_form button {
+    width: 40%;
+    margin-left: 30%;
+    clear: both;
+}
+
+.contact_form #how_math {
+    width: 90px;
+    display: inline-block;
+}
+.contact_form h3 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.math_qest {
+    float: right;
+}
