@@ -1,5 +1,5 @@
 .call_to_action {
-    padding-top: 15%;
+    padding-top: 70px;
 }
 
 #hire_me_statement {
@@ -8,22 +8,11 @@
     text-align: center;
     border: 2px solid #00a651;
     padding: 10px 15px;
-    position: relative;
     background: #f5f5f6;
     
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
-}
-#hire_me_statement img {
-    height: 100%;
-    position: absolute;
-    top: -60%;
-    left: -10%;
-    
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
 }
 #hire_me_statement p {
     text-align: left;
